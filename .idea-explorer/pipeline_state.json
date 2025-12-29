@@ -1,0 +1,18 @@
+{
+  "created_at": "2025-12-29T12:27:50.515181",
+  "stages": {
+    "resource_finder": {
+      "status": "failed",
+      "started_at": "2025-12-29T12:27:50.515856",
+      "completed_at": "2025-12-29T12:34:15.103565",
+      "success": false,
+      "outputs": {
+        "papers_dir": "/data/hypogenicai/workspaces/ai-review-equilibrium-claude/papers",
+        "datasets_dir": "/data/hypogenicai/workspaces/ai-review-equilibrium-claude/datasets",
+        "code_dir": "/data/hypogenicai/workspaces/ai-review-equilibrium-claude/code"
+      }
+    }
+  },
+  "current_stage": null,
+  "completed": false
+}
