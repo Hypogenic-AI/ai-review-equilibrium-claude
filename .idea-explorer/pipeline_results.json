@@ -11,7 +11,7 @@
       },
       "log_file": "/data/hypogenicai/workspaces/ai-review-equilibrium-claude/logs/resource_finder_claude.log",
       "transcript_file": "/data/hypogenicai/workspaces/ai-review-equilibrium-claude/logs/resource_finder_claude_transcript.jsonl",
-      "elapsed_time": 384.5860483646393
+      "elapsed_time": 227.47884464263916
     }
   },
   "work_dir": "/data/hypogenicai/workspaces/ai-review-equilibrium-claude"

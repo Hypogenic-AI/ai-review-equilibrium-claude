@@ -3,8 +3,8 @@
   "stages": {
     "resource_finder": {
       "status": "failed",
-      "started_at": "2025-12-29T12:27:50.515856",
-      "completed_at": "2025-12-29T12:34:15.103565",
+      "started_at": "2025-12-29T12:58:47.573705",
+      "completed_at": "2025-12-29T13:02:35.054374",
       "success": false,
       "outputs": {
         "papers_dir": "/data/hypogenicai/workspaces/ai-review-equilibrium-claude/papers",
