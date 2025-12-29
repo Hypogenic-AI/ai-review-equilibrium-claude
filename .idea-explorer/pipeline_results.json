@@ -1,17 +1,26 @@
 {
-  "success": false,
+  "success": true,
   "stages": {
     "resource_finder": {
-      "success": false,
-      "completion_marker": null,
+      "success": true,
+      "completion_marker": "/data/hypogenicai/workspaces/ai-review-equilibrium-claude/.resource_finder_complete",
       "outputs": {
+        "literature_review": "/data/hypogenicai/workspaces/ai-review-equilibrium-claude/literature_review.md",
+        "resources_catalog": "/data/hypogenicai/workspaces/ai-review-equilibrium-claude/resources.md",
         "papers_dir": "/data/hypogenicai/workspaces/ai-review-equilibrium-claude/papers",
         "datasets_dir": "/data/hypogenicai/workspaces/ai-review-equilibrium-claude/datasets",
         "code_dir": "/data/hypogenicai/workspaces/ai-review-equilibrium-claude/code"
       },
       "log_file": "/data/hypogenicai/workspaces/ai-review-equilibrium-claude/logs/resource_finder_claude.log",
       "transcript_file": "/data/hypogenicai/workspaces/ai-review-equilibrium-claude/logs/resource_finder_claude_transcript.jsonl",
-      "elapsed_time": 227.47884464263916
+      "elapsed_time": 848.9961717128754
+    },
+    "experiment_runner": {
+      "success": true,
+      "return_code": 0,
+      "elapsed_time": 1288.1347072124481,
+      "log_file": "/data/hypogenicai/workspaces/ai-review-equilibrium-claude/logs/execution_claude.log",
+      "transcript_file": "/data/hypogenicai/workspaces/ai-review-equilibrium-claude/logs/execution_claude_transcript.jsonl"
     }
   },
   "work_dir": "/data/hypogenicai/workspaces/ai-review-equilibrium-claude"

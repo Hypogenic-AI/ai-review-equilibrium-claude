@@ -1,0 +1,277 @@
+{
+  "metadata": {
+    "timestamp": "2025-12-29T13:40:09.981651",
+    "n_papers": 5,
+    "n_iterations": 2
+  },
+  "dynamics": {
+    "407": {
+      "iterations": [
+        {
+          "iteration": 0,
+          "abstract": "Transferring knowledge from prior source tasks in solving a new target task can be useful in several learning applications. The application of transfer poses two serious challenges which have not been adequately addressed. First, the agent should be able to avoid negative transfer, which happens whe...",
+          "ratings": {
+            "gpt4": 7,
+            "claude": 7,
+            "gemini": 6
+          }
+        },
+        {
+          "iteration": 1,
+          "abstract": "Transferring knowledge from prior source tasks in solving a new target task can be useful in several learning applications. This paper addresses two critical challenges in transfer learning: avoiding negative transfer, which can hinder learning, and enabling selective transfer, allowing the agent to...",
+          "ratings": {
+            "gpt4": 7,
+            "claude": 7,
+            "gemini": 6
+          },
+          "rating_changes": {
+            "gpt4": 0,
+            "claude": 0,
+            "gemini": 0
+          }
+        },
+        {
+          "iteration": 2,
+          "abstract": "Transferring knowledge from prior source tasks in solving a new target task can be useful in several learning applications. This paper presents A2T (Attend Adapt and Transfer), a novel attentive deep architecture that addresses two critical challenges in transfer learning: avoiding negative transfer...",
+          "ratings": {
+            "gpt4": 7,
+            "claude": 7,
+            "gemini": 6
+          },
+          "rating_changes": {
+            "gpt4": 0,
+            "claude": 0,
+            "gemini": 0
+          }
+        }
+      ],
+      "initial_abstract": "Transferring knowledge from prior source tasks in solving a new target task can be useful in several learning applications. The application of transfer poses two serious challenges which have not been adequately addressed. First, the agent should be able to avoid negative transfer, which happens when the transfer hampers or slows down the learning instead of helping it. Second, the agent should be able to selectively transfer, which is the ability to select and transfer from different and multiple source tasks for different parts of the state space of the target task. We propose A2T (Attend Adapt and Transfer), an attentive deep architecture which adapts and transfers from these source tasks. Our model is generic enough to effect transfer of either policies or value functions. Empirical evaluations on different learning algorithms show that A2T is an effective architecture for transfer by being able to avoid negative transfer while transferring selectively from multiple source tasks in the same domain."
+    },
+    "383": {
+      "iterations": [
+        {
+          "iteration": 0,
+          "abstract": "At present, designing convolutional neural network (CNN) architectures requires both human expertise and labor. New architectures are handcrafted by careful experimentation or modified from a handful of existing networks. We introduce MetaQNN, a meta-modeling algorithm based on reinforcement learnin...",
+          "ratings": {
+            "gpt4": 7,
+            "claude": 7,
+            "gemini": 6
+          }
+        },
+        {
+          "iteration": 1,
+          "abstract": "We introduce MetaQNN, a novel meta-modeling algorithm that leverages reinforcement learning to automatically generate high-performing convolutional neural network (CNN) architectures tailored for specific learning tasks. By employing $Q$-learning with an $\\epsilon$-greedy exploration strategy and ex...",
+          "ratings": {
+            "claude": 7,
+            "gemini": 6
+          },
+          "rating_changes": {
+            "claude": 0,
+            "gemini": 0
+          }
+        },
+        {
+          "iteration": 2,
+          "abstract": "We introduce MetaQNN, a novel meta-modeling algorithm that leverages reinforcement learning to automatically generate high-performing convolutional neural network (CNN) architectures tailored for specific learning tasks. Our main contribution lies in the innovative application of $Q$-learning with a...",
+          "ratings": {
+            "gpt4": 7,
+            "claude": 7,
+            "gemini": 6
+          },
+          "rating_changes": {
+            "gpt4": 7,
+            "claude": 0,
+            "gemini": 0
+          }
+        }
+      ],
+      "initial_abstract": "At present, designing convolutional neural network (CNN) architectures requires both human expertise and labor. New architectures are handcrafted by careful experimentation or modified from a handful of existing networks. We introduce MetaQNN, a meta-modeling algorithm based on reinforcement learning to automatically generate high-performing CNN architectures for a given learning task. The learning agent is trained to sequentially choose CNN layers using $Q$-learning with an $\\epsilon$-greedy exploration strategy and experience replay. The agent explores a large but finite space of possible architectures and iteratively discovers designs with improved performance on the learning task. On image classification benchmarks, the agent-designed networks (consisting of only standard convolution, pooling, and fully-connected layers) beat existing networks designed with the same layer types and are competitive against the state-of-the-art methods that use more complex layer types. We also outperform existing meta-modeling approaches for network design on image classification tasks."
+    },
+    "476": {
+      "iterations": [
+        {
+          "iteration": 0,
+          "abstract": "Yes, they do.  This paper provides the first empirical demonstration that deep convolutional models really need to be both deep and convolutional, even when trained with methods such as distillation that allow small or shallow models of high accuracy to be trained.  Although previous research showed...",
+          "ratings": {
+            "gpt4": 7,
+            "claude": 7,
+            "gemini": 6
+          }
+        },
+        {
+          "iteration": 1,
+          "abstract": "This paper provides the first empirical demonstration that deep convolutional models must be both deep and convolutional to achieve high accuracy, even when employing techniques like distillation that typically enable smaller models to perform well. We clarify our main contribution by systematically...",
+          "ratings": {
+            "gpt4": 7,
+            "claude": 7,
+            "gemini": 6
+          },
+          "rating_changes": {
+            "gpt4": 0,
+            "claude": 0,
+            "gemini": 0
+          }
+        },
+        {
+          "iteration": 2,
+          "abstract": "This paper provides the first empirical demonstration that deep convolutional models must be both deep and convolutional to achieve high accuracy, even when employing techniques like distillation that typically enable smaller models to perform well. We clarify our main contribution by systematically...",
+          "ratings": {
+            "gpt4": 7,
+            "claude": 7,
+            "gemini": 6
+          },
+          "rating_changes": {
+            "gpt4": 0,
+            "claude": 0,
+            "gemini": 0
+          }
+        }
+      ],
+      "initial_abstract": "Yes, they do.  This paper provides the first empirical demonstration that deep convolutional models really need to be both deep and convolutional, even when trained with methods such as distillation that allow small or shallow models of high accuracy to be trained.  Although previous research showed that shallow feed-forward nets sometimes can learn the complex functions previously learned by deep nets while using the same number of parameters as the deep models they mimic, in this paper we demonstrate that the same methods cannot be used to train accurate models on CIFAR-10 unless the student models contain multiple layers of convolution.  Although the student models do not have to be as deep as the teacher model they mimic, the students need multiple convolutional layers to learn functions of comparable accuracy as the deep convolutional teacher."
+    },
+    "419": {
+      "iterations": [
+        {
+          "iteration": 0,
+          "abstract": "In this paper, we propose TopicRNN, a recurrent neural network (RNN)-based language model designed to directly capture the global semantic meaning relating words in a document via latent topics. Because of their sequential nature, RNNs are good at capturing the local structure of a word sequence \u2013 b...",
+          "ratings": {
+            "gpt4": 7,
+            "claude": 8,
+            "gemini": 7
+          }
+        },
+        {
+          "iteration": 1,
+          "abstract": "In this paper, we propose TopicRNN, a recurrent neural network (RNN)-based language model that integrates local syntactic dependencies and global semantic structures by leveraging latent topics. By clearly delineating the contributions of RNNs in capturing sequential word relationships and latent to...",
+          "ratings": {
+            "gpt4": 7,
+            "claude": 7,
+            "gemini": 6
+          },
+          "rating_changes": {
+            "gpt4": 0,
+            "claude": -1,
+            "gemini": -1
+          }
+        },
+        {
+          "iteration": 2,
+          "abstract": "In this paper, we propose TopicRNN, a recurrent neural network (RNN)-based language model that integrates local syntactic dependencies and global semantic structures by leveraging latent topics. Our main contribution lies in the innovative combination of RNNs for capturing sequential word relationsh...",
+          "ratings": {
+            "gpt4": 7,
+            "claude": 7,
+            "gemini": 6
+          },
+          "rating_changes": {
+            "gpt4": 0,
+            "claude": 0,
+            "gemini": 0
+          }
+        }
+      ],
+      "initial_abstract": "In this paper, we propose TopicRNN, a recurrent neural network (RNN)-based language model designed to directly capture the global semantic meaning relating words in a document via latent topics. Because of their sequential nature, RNNs are good at capturing the local structure of a word sequence \u2013 both semantic and syntactic \u2013 but might face difficulty remembering long-range dependencies. Intuitively, these long-range dependencies are of semantic nature. In contrast, latent topic models are able to capture the global underlying semantic structure of a document but do not account for word ordering. The proposed TopicRNN model integrates the merits of RNNs and latent topic models: it captures local (syntactic) dependencies using an RNN and global (semantic) dependencies using latent topics. Unlike previous work on contextual RNN language modeling, our model is learned end-to-end. Empirical results on word prediction show that TopicRNN outperforms existing contextual RNN baselines. In addition, TopicRNN can be used as an unsupervised feature extractor for documents. We do this for sentiment analysis on the IMDB movie review dataset and report an error rate of 6.28%. This is comparable to the state-of-the-art 5.91% resulting from a semi-supervised approach. Finally, TopicRNN also yields sensible topics, making it a useful alternative to document models such as latent Dirichlet allocation."
+    },
+    "427": {
+      "iterations": [
+        {
+          "iteration": 0,
+          "abstract": "This article presents the prediction difference analysis method for visualizing the response of a deep neural network to a specific input. When classifying images, the method highlights areas in a given input image that provide evidence for or against a certain class. It overcomes several shortcomin...",
+          "ratings": {
+            "gpt4": 6,
+            "claude": 7,
+            "gemini": 6
+          }
+        },
+        {
+          "iteration": 1,
+          "abstract": "This article presents the prediction difference analysis method for visualizing the response of a deep neural network to a specific input, clearly distinguishing its main contribution as a novel approach that highlights areas in a given input image that provide evidence for or against a certain clas...",
+          "ratings": {
+            "gpt4": 7,
+            "claude": 7,
+            "gemini": 5
+          },
+          "rating_changes": {
+            "gpt4": 1,
+            "claude": 0,
+            "gemini": -1
+          }
+        },
+        {
+          "iteration": 2,
+          "abstract": "This article presents the prediction difference analysis method, a novel approach for visualizing the response of a deep neural network to specific inputs by highlighting areas in an image that support or contradict a given class. We clarify our main contribution by explicitly detailing how our meth...",
+          "ratings": {
+            "gpt4": 7,
+            "claude": 7,
+            "gemini": 6
+          },
+          "rating_changes": {
+            "gpt4": 0,
+            "claude": 0,
+            "gemini": 1
+          }
+        }
+      ],
+      "initial_abstract": "This article presents the prediction difference analysis method for visualizing the response of a deep neural network to a specific input. When classifying images, the method highlights areas in a given input image that provide evidence for or against a certain class. It overcomes several shortcoming of previous methods and provides great additional insight into the decision making process of classifiers. Making neural network decisions interpretable through visualization is important both to improve models and to accelerate the adoption of black-box classifiers in application areas such as medicine. We illustrate the method in experiments on natural images (ImageNet data), as well as medical images (MRI brain scans)."
+    }
+  },
+  "analysis": {
+    "convergence_metrics": {
+      "407": {
+        "initial_std": 0.4714045207910317,
+        "final_std": 0.4714045207910317,
+        "converged": "False",
+        "std_change": 0.0
+      },
+      "383": {
+        "initial_std": 0.4714045207910317,
+        "final_std": 0.4714045207910317,
+        "converged": "False",
+        "std_change": 0.0
+      },
+      "476": {
+        "initial_std": 0.4714045207910317,
+        "final_std": 0.4714045207910317,
+        "converged": "False",
+        "std_change": 0.0
+      },
+      "419": {
+        "initial_std": 0.4714045207910317,
+        "final_std": 0.4714045207910317,
+        "converged": "False",
+        "std_change": 0.0
+      },
+      "427": {
+        "initial_std": 0.4714045207910317,
+        "final_std": 0.4714045207910317,
+        "converged": "False",
+        "std_change": 0.0
+      }
+    },
+    "per_model_trends": {
+      "gpt4": {
+        "mean_change": 0.8888888888888888,
+        "positive_changes": 2,
+        "negative_changes": 0,
+        "no_change": 7
+      },
+      "claude": {
+        "mean_change": -0.1,
+        "positive_changes": 0,
+        "negative_changes": 1,
+        "no_change": 9
+      },
+      "gemini": {
+        "mean_change": -0.1,
+        "positive_changes": 1,
+        "negative_changes": 2,
+        "no_change": 7
+      }
+    },
+    "overall_patterns": {
+      "mean_std_change": 0.0,
+      "papers_converged": 0,
+      "papers_diverged": 5,
+      "total_papers": 5
+    }
+  }
+}
